@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="81058" started-at="2021-03-09T16:04:56 COT" finished-at="2021-03-09T16:06:17 COT">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="81014" started-at="2021-03-09T16:04:56 COT" finished-at="2021-03-09T16:06:17 COT">
+      <class name="com.com.bancodebogota.test.Prueba1">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.com.bancodebogota.test.Prueba1@7a36aefa]" name="beforeMethod" is-config="true" duration-ms="3190" started-at="2021-03-09T16:04:56 COT" finished-at="2021-03-09T16:04:59 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:com.com.bancodebogota.test.Prueba1@7a36aefa]" name="f1" duration-ms="45302" started-at="2021-03-09T16:04:59 COT" finished-at="2021-03-09T16:05:45 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.com.bancodebogota.test.Prueba1@7a36aefa]" name="afterMethod" is-config="true" duration-ms="2572" started-at="2021-03-09T16:05:45 COT" finished-at="2021-03-09T16:05:47 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.com.bancodebogota.test.Prueba1@7a36aefa]" name="beforeMethod" is-config="true" duration-ms="2555" started-at="2021-03-09T16:05:47 COT" finished-at="2021-03-09T16:05:50 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:com.com.bancodebogota.test.Prueba1@7a36aefa]" name="f2" duration-ms="24887" started-at="2021-03-09T16:05:50 COT" finished-at="2021-03-09T16:06:15 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.com.bancodebogota.test.Prueba1@7a36aefa]" name="afterMethod" is-config="true" duration-ms="2476" started-at="2021-03-09T16:06:15 COT" finished-at="2021-03-09T16:06:17 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.com.bancodebogota.test.Prueba1 -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="81058" started-at="2021-03-09T16:04:56 COT" finished-at="2021-03-09T16:06:17 COT">
+      <class name="com.com.bancodebogota.test.Prueba1">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.com.bancodebogota.test.Prueba1@10dba097]" name="beforeMethod" is-config="true" duration-ms="1728" started-at="2021-03-09T16:04:56 COT" finished-at="2021-03-09T16:04:58 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:com.com.bancodebogota.test.Prueba1@10dba097]" name="f1" duration-ms="50072" started-at="2021-03-09T16:04:58 COT" finished-at="2021-03-09T16:05:48 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.com.bancodebogota.test.Prueba1@10dba097]" name="afterMethod" is-config="true" duration-ms="2102" started-at="2021-03-09T16:05:48 COT" finished-at="2021-03-09T16:05:50 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.com.bancodebogota.test.Prueba1@10dba097]" name="beforeMethod" is-config="true" duration-ms="1331" started-at="2021-03-09T16:05:50 COT" finished-at="2021-03-09T16:05:51 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:com.com.bancodebogota.test.Prueba1@10dba097]" name="f2" duration-ms="23695" started-at="2021-03-09T16:05:51 COT" finished-at="2021-03-09T16:06:15 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.com.bancodebogota.test.Prueba1@10dba097]" name="afterMethod" is-config="true" duration-ms="2103" started-at="2021-03-09T16:06:15 COT" finished-at="2021-03-09T16:06:17 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.com.bancodebogota.test.Prueba1 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
