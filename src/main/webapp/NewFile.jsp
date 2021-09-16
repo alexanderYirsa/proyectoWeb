@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Prueba de mi primera pagina</h1>
+	<h1>Prueba de mi primera pagina edicion</h1>
 
 </body>
 </html>
