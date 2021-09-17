@@ -31,7 +31,7 @@ public class DemoServlet extends HttpServlet {
 		String nombre = request.getParameter("nombre");
 		String cedula = request.getParameter("cedula");
 		PrintWriter writer = response.getWriter();
-		if(nombre != "" && cedula != "") {
+		if(nombre != null && cedula != null) {
 			writer.println(" Bienvenido "+nombre+" a mi JSP");
 		}
 		else
