@@ -39,7 +39,7 @@ public class DemoServlet extends HttpServlet {
 		else
 			writer.println("Error: Nombre o cédula faltantes!");
 		writer.close();
-		//prueba de otro comentario mas
+		//prueba de otro comentario mas 2
 		
 	}
 
