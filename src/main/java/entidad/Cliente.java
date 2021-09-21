@@ -5,6 +5,7 @@ public class Cliente {
 	int id_cliente;
 	String nombre;
 	String apellido;
+	String clave;
 	String email;
 	String telefono;
 	double saldo;
@@ -13,11 +14,12 @@ public class Cliente {
 		
 	}
 
-	public Cliente(int id_cliente, String nombre, String apellido, String email, String telefono, double saldo) {
+	public Cliente(int id_cliente, String nombre, String apellido, String clave, String email, String telefono, double saldo) {
 		
 		this.id_cliente = id_cliente;
 		this.nombre = nombre;
 		this.apellido = apellido;
+		this.clave = clave;
 		this.email = email;
 		this.telefono = telefono;
 		this.saldo = saldo;
@@ -46,6 +48,14 @@ public class Cliente {
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
+	
+	public String getClave() {
+		return clave;
+	}
+
+	public void setClave(String clave) {
+		this.clave = clave;
+	}
 
 	public String getEmail() {
 		return email;
@@ -73,8 +83,10 @@ public class Cliente {
 
 	@Override
 	public String toString() {
-		return "Cliente [id_cliente=" + id_cliente + ", nombre=" + nombre + ", apellido=" + apellido + ", email="
-				+ email + ", telefono=" + telefono + ", saldo=" + saldo + "]";
+		return "Cliente [id_cliente=" + id_cliente + ", nombre=" + nombre + ", apellido=" + apellido + ", clave="
+				+ clave + ", email=" + email + ", telefono=" + telefono + ", saldo=" + saldo + "]";
 	}
+
+
 	
 }
